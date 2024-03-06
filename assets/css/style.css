@@ -5,6 +5,7 @@
     --roboto-light: 300;
     --roboto-medium:500;
     --black:#212529;
+    --border-grey: #DDDDDD;
     --grey:#707070;
     --grey-light:#F8F9FA;
     --white:#fff;
@@ -87,7 +88,7 @@ h5 {
 /* Cards */
 
 .card .info-list {
-    border-bottom: #DDDDDD solid 1px;
+    border-bottom: var(--border-grey) solid 1px;
 }
 
 .card .info-list li, .discount-list li {
@@ -125,13 +126,13 @@ h5 {
 /* Section contact */
 
 .section-contact .container {
-    max-width:800px;
+    max-width: 800px;
 }
 
 .btn-white{
-    background-color:var(--grey-light);
-    color:var(--black);
-    border:none;
+    background-color: var(--grey-light);
+    color: var(--black);
+    border: none;
     font-weight: var(--roboto-medium);
     padding-left: 20%;
     padding-right: 20%;
